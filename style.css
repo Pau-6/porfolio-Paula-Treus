@@ -1,0 +1,240 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+  background: url(../logo/logo.png) no-repeat;
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+  position:relative;
+  z-index: 2;
+  background-color:rgb(237, 199, 200);
+}
+
+#barra{
+  background-color:rgb(237, 199, 200);
+  justify-content: end;
+}
+
+nav{
+  background-color:rgb(237, 199, 200);
+
+}
+
+.navbar-nav .nav-link:hover{
+  background-color: white;
+}
+
+#pau{
+  border-radius: 45%;
+  padding-top: 10%;
+}
+
+.mi-foto{
+  border-radius: 1100px;
+  width: 200px;
+}
+
+@media (min-width:576px)and(max-width:768px) {
+  .mi-foto{
+    width: 100%;
+  }
+
+}
+
+
+#soypau{
+  padding-top: 10%;
+}
+
+.titulo{
+  padding-top: 5%;
+}
+
+main{
+  margin-top: 5%;
+}
+
+#treus{
+  padding-top: 10%;
+}
+
+#carrusel{
+  padding-top: 3%;
+
+}
+
+
+section{
+  margin:5%;
+} 
+
+.card-text-custom {
+  font-size: 14px;
+  position: relative;
+  top: 10px;
+  margin:20px;
+}
+
+.text-custom {
+  position: relative;
+  top: -10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: static;
+  margin-left: 0;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  #sobreMi, #treus {
+    font-size: 1.2rem;
+    }
+
+    #pau {
+      width: 200px;
+      height: auto;
+    }
+  
+
+    .row > .col {
+      margin: 0 5px;
+    }
+  }
+
+  @media (max-width: 330px) {
+    .img-custom {
+      max-width: 150px;
+      max-height: 200px;
+    }
+    .text-custom {
+      position: static;
+      margin-left: 0;
+    }
+
+    #datos{
+      font-size: x-small;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .text-custom {
+      text-align: center;
+    }
+
+.img-custom {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    }
+  }
+
+@media (min-width: 304px) and (max-width: 768px) {
+  .img-custom {
+    max-width: 150px;
+    max-height: 150px;;
+  }
+}
+
+@media (max-width: 270px) {
+  #icon {
+    max-width: 30px;
+    height: auto;
+    }
+}
+
+#miServicios{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.container.container-custom{
+  padding-top: 5%;
+}
+
+.img-custom{
+  max-width: 150px;
+  max-height: 150px;
+}
+
+#video{
+  margin: 8%;
+}
+
+#redes img{
+  width: 3%;
+  height: 3%;
+}
+
+footer {
+  background-color: rgb(237, 199, 200); 
+  padding: 20px; 
+  font-family: Arial, sans-serif; 
+  margin-top: 3%;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+
+#datos {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+}
+
+#datos p {
+  width: 30%;
+  margin: 10px; 
+}
+
+#redes a {
+  margin: 10px;
+}
+
+#redes img {
+  width: 50px; 
+  height: 50px; 
+}
+
+
+#contacto {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+}
+
+#contacto-titulo{
+  text-align: center;
+}
+
+#contacto form {
+  width: 80%; 
+}
+
+#contacto label {
+  display: block; 
+}
+
+#contacto input,
+#contacto textarea {
+  width: 100%; 
+}
+
+#contacto button {
+  margin-top: 10px; 
+}
+
+#formulario {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+#redes{
+  margin-top: 3%;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+} 

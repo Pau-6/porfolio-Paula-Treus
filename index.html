@@ -1,0 +1,262 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Porfolio de Paula</title>
+</head>
+<body>
+
+  <header class="container-xxl g-0 sticky-lg-top">
+    <nav class="navbar navbar-expand-sm" id="encabezado" role="navigation">
+      <h1 id="logo"></h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#barra" aria-controls="barra" aria-expanded="false" aria-label="menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="barra">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="inicio" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre_mi">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#porfolio">Porfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+  <main class="container-xl">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <img src="img/pau-celu.jpg" alt="Paula" class="img-fluid mi-foto">
+      </div>
+      <div class="col-sm">
+        <h2 id="sobre_mi">Sobre mi</h2>
+      </div>
+      <div id="presentacion" class="col-sm">
+        <h3 id="soypau">Soy Paula Treus</h3>
+        <p>Estoy estudiando diseño gráfico<br>
+          Escuela Da Vinci, soy divertida, alegre<br>
+          y dinámica. Vivo en Buenos Aires, tengo 25<br>
+          años, mis diseños son únicos y originales</p>
+      </div>
+    </div>
+  </div>
+
+    <div id="carrusel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/carru1.jpg" alt="escritorio con distintos objetos con colores hojas etc lapicero y computador">
+        </div>
+        <div class="carousel-item">
+          <img src="img/carru2.jpg" alt="ilustración de mujer mirando las estrellas">
+        </div>
+        <div class="carousel-item">
+          <img src="img/carru3.jpg" alt="flayers de distintos coloresy diseños">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </main>
+
+  <section>
+    <div id="servicios" aria-labelledby="Mis-Servicios">
+      <h2 id="miServicios">Mis Servicios</h2>
+    </div>
+
+    <div class="container container-custom">
+      <div class="row">
+          <div class="col-12 col-md-3">
+            <img src="logo/iconos/brochure (1).png" alt="Imagen 1" class="img-fluid img-custom">
+            <div class="text-custom">
+              <p class="card-text card-text-custom">
+            <p>Videos de marcas, presentaciones, logos, publicidades en formato MP4 en buena resolución y calidad de audio</p>
+          </div>
+          </div>
+  
+          <div class="col-12 col-md-3">
+            <img src="logo/iconos/multimedia.png" alt="Imagen 2" class="img-fluid img-custom">
+            <div class="text-custom">
+              <p class="card-text card-text-custom">
+            <p>Videos de marcas, presentaciones, logos, publicidades en formato MP4 en buena resolución y calidad de audio</p>
+          </div>
+          </div>
+  
+          <div class="col-12 col-md-3">
+            <img src="logo/iconos/vector (1).png" alt="Imagen 3" class="img-fluid img-custom">
+            <div class="text-custom">
+              <p class="card-text card-text-custom">
+            <p>Folletos, tripticos, dipticos, flayers, packaging y papeleria de alta calidad apto para imprimir</p>
+          </div>
+          </div>
+  
+          <div class="col-12 col-md-3">
+            <img src="logo/iconos/web-design.png" alt="Imagen 4" class="img-fluid img-custom">
+            <div class="text-custom">
+              <p class="card-text card-text-custom">
+            <p>Ilustraciones, logos, manual de marcas, rebranding, diseños personalizados de imagen ilustrada de alta calidad y buena resolución.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+  </section>
+
+
+  <article>
+  <div class="container">
+    <h2 id="porfolio">Porfolio</h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <picture>
+          <source srcset="img/libro.jpg" media="(max-width: 600px)">
+          <source srcset="img/libro.jpg" media="(max-width: 1500px)">
+          <source srcset="img/libro.jpg">
+          <a href="img/libro.jpg" data="galeria" target="_blank">
+            <img src="img/libro.jpg" alt="libro" class="w-75 h-75 pt-5">
+          </a>
+        </picture>
+      </div>
+      <div class="col-sm-4">
+        <picture>
+          <source srcset="img/cartas.jpg" media="(max-width: 600px)">
+          <source srcset="img/cartas.jpg" media="(max-width: 1500px)">
+          <source srcset="img/cartas.jpg">
+          <a href="img/cartas.jpg" data="galeria" target="_blank">
+            <img src="img/cartas.jpg" alt="cartas" class="w-75 h-75 pt-5">
+          </a>
+        </picture>
+      </div>
+      <div class="col-sm-4">
+        <picture>
+          <source srcset="img/papeleria.jpg" media="(max-width: 600px)">
+          <source srcset="img/papeleria.jpg" media="(max-width: 1500px)">
+          <source srcset="img/papeleria.jpg">
+          <a href="img/papeleria.jpg" data="galeria" target="_blank">
+            <img src="img/papeleria.jpg" alt="hojas,sobre,tarjetasy lapiceras" class="w-75 h-75 pt-5">
+          </a>
+        </picture>
+      </div>
+    </div>
+  </div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <picture>
+        <source srcset="img/logo.jpg" media="(max-width: 600px)">
+        <source srcset="img/logo.jpg" media="(max-width: 1500px)">
+        <source srcset="img/logo.jpg">
+        <a href="img/logo.jpg" data="galeria" target="_blank">
+          <img src="img/logo.jpg" alt="imagen de logo en dibujo" class="w-75 h-75 pt-5">
+        </a>
+      </picture>
+    </div>
+    <div class="col-sm-4">
+      <picture>
+        <source srcset="img/vino.jpg" media="(max-width: 600px)">
+        <source srcset="img/vino.jpg" media="(max-width: 1500px)">
+        <source srcset="img/vino.jpg">
+        <a href="img/vino.jpg" data="galeria" target="_blank">
+          <img src="img/vino.jpg" alt="vinos" class="w-75 h-75 pt-5">
+        </a>
+      </picture>
+    </div>
+    <div class="col-sm-4">
+      <picture>
+        <source srcset="img/3D.jpg" media="(max-width: 600px)">
+        <source srcset="img/3D.jpg" media="(max-width: 1500px)">
+        <source srcset="img/3D.jpg">
+        <a href="img/3D.jpg" data="galeria" target="_blank">
+          <img src="img/3D.jpg" alt="objeto tridimencional 3D" class="w-75 h-75 pt-5">
+        </a>
+      </picture>
+    </div>
+  </div>
+</div>
+  </article>
+
+  <div class="container">
+    <div class="row justify-content-center" id="video">
+      <video controls> <source src="video/Treus_Paula_Final.mp4" type="video/mp4"/> Tu navegador no soporta la etiqueta de video. </video>
+    </div>
+    </div>
+
+
+
+
+    <footer>
+
+      <div id="Contacto" class="container" aria-labelledby="contacto-titulo">
+        <h2 id="contacto-titulo">Contacto</h2>
+    </div>
+    
+      <div id="datos">
+        <p>Nombre: Paula Muriel</p>
+        <p>Apellido:Treus Peciar</p>
+        <p>Materia: Diseño Web</p>
+        <p>Turno: tarde</p>
+        <p>Comisión: dgt4bv</p>
+        <p>Año de cursada: 2023</p>
+      </div>
+    
+    
+      <div id="redes" class="container w-10 h-10 ">
+        <a href="https://www.linkedin.com/in/paula-muriel-79632a195" target="_blank">
+          <img id="icon" src="logo/iconos/linkedin.png" alt="LinkedIn" />
+        </a>
+      
+        <a href="https://www.instagram.com/pau_arte_digital/?next=%2F" target="_blank">
+          <img id="icon" src="logo/iconos/instagram.png" alt="Instagram" />
+        </a>
+        <a href="https://wa.me/+5491153413475" target="_blank">
+          <img id="icon" src="logo/iconos/whatsapp.png" alt="WhatsApp" />
+        </a>
+      </div>
+      
+    
+    
+      <div id="contacto">
+        <form action="mailto:paula.treus@davinci.edu.ar" method="post" enctype="text/plain">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+    
+          <label for="asunto">Asunto:</label>
+          <input type="text" id="asunto" name="asunto" required />
+    
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+    
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    
+
+
+
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
