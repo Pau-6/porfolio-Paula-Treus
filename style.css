@@ -79,6 +79,9 @@ section{
   margin:20px;
 }
 
+#porfolio{
+  text-align: center;
+}
 .text-custom {
   position: relative;
   top: -10px;
