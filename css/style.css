@@ -45,7 +45,6 @@ nav{
 
 }
 
-
 #soypau{
   padding-top: 10%;
 }
@@ -64,9 +63,7 @@ main{
 
 #carrusel{
   padding-top: 3%;
-
 }
-
 
 section{
   margin:5%;
@@ -241,3 +238,10 @@ footer {
   justify-content: center; 
   align-items: center; 
 } 
+
+@media (max-width:576px) {
+  #trabajo{
+    padding-left: 20%;
+  }
+}
+
